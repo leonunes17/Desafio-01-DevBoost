@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+.container {
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    color: #393D51;
+}
+
+.titulo{
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #414246;
+}
+
+p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414246;
+}
+
+.btn-one{
+    width: 152px;
+    height: 44px;
+    background-color: #F1554C;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.btn-one:hover{
+    background-color: #e1382f;
+}
+
+header{
+    background-color: #F4F5FC;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header .container nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+header .container ul li{
+    margin-left: 26px;
+}
+
+header .container ul li a{
+    color: #393D51;
+}
+header .container ul li a:hover{
+    color: #F1554C;
+}
+
+.hero{
+    height: 620px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .container .text h1, p{
+    max-width: 386px;
+
+}
+
+.hero .container .text p{
+    max-width: 386px;
+    margin: 15px 0 17px 0px;
+    
+}
+
+.hero .container .text .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero .container .text .btns .play a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero .container .text .btns .play a p{
+    margin-left: 10px;
+}
+
+.hero .container .text span{
+    color: #F1554C;
+    font-family: 'Exo 2';
+    font-weight: 700;
+}    
+
+.hero .container .text .btns button{
+    margin-right: 27px;
+}
