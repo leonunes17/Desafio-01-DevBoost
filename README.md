@@ -1,4 +1,4 @@
-# Desafio-01-DevBoost
+# Desafio 01 DevBoost
 Desafio DevBoost para treinamento de comandos HTML e CSS
 
 
